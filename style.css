@@ -161,3 +161,71 @@ footer a{
         text-decoration: none;
         color: black;
 }
+
+/* ... (seus estilos anteriores) ... */
+
+/* Responsividade para Dispositivos Móveis */
+@media (max-width: 768px) {
+    /* Estilos para header */
+    .header {
+        text-align: center;
+    }
+
+    .header img {
+        width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    }
+
+    .header ul {
+        flex-direction: column;
+    }
+
+    .header li {
+        margin: 5px 0;
+    }
+
+    /* Estilos para cadastro */
+    .cadastro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Estilos para os inputs */
+    .inputs input {
+        width: 100%; /* Ocupa a largura disponível */
+    }
+
+    /* Estilos para info */
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Estilos para products */
+    .products {
+        flex-direction: column;
+    }
+
+    /* Estilos para banner */
+    .banner div {
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    /* Estilos para o botão no banner */
+    .banner button {
+        width: 100%; /* Ocupa a largura disponível */
+        margin-top: 10px;
+    }
+
+    /* Estilos para footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Estilos para as imagens no footer */
+    footer img {
+        width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+        margin-bottom: 10px;
+    }
+}
